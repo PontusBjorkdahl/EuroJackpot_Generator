@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    background: linear-gradient(#993A00, #000000);
+}
+
+#wrapper {
+    background-color: #fff;
+    height: 500px;
+    width: 700px;
+    padding: 20px 30px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: 'Poppins';
+    border-radius: 10px;
+
+}
+
+#numbers_wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.first_five_numbers {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    /* margin-right: 15px; */
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    padding: 5px;
+    background-color: #993A00;
+}
+
+.last_two_numbers {
+    background-color: #222222;
+    color: #fff;
+}
+
+button {
+    margin-top: 50px;
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: #222222;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 500px) {
+    #wrapper {
+        width: 95%;
+        padding: 20px 10px;
+    }
+
+    .first_five_numbers {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
